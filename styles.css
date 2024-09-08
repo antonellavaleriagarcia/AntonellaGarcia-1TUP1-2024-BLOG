@@ -1,0 +1,158 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Cabecera */
+
+.logo{
+    height: 60px;
+    width: auto;
+}
+
+
+h2{
+    font-size: 48px;
+    color: whitesmoke;
+}
+header {
+    background-color: #333;
+    height: 40px;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 1216px;
+    padding: 10px 0px;
+    align-items: center;
+}
+.main-container{
+    background-color: aqua;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor-principal{
+    background-color: #142f38b6;
+    padding:20px;
+    height: auto;
+    margin-top:100px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+}
+.nav-search{
+    margin-left: 400px;
+}
+.navi{
+    margin-left: 100px;
+}
+/* Artículos */
+.comments{
+    margin: 40px;
+}
+.article {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 12px rgba(217, 217, 217);
+    padding: 20px;
+    margin: 20px;
+}
+.form-art{
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+.button-art{
+    margin: 20px;
+}
+
+
+.nav-item a{ 
+    color: rgb(0, 221, 255); 
+}
+
+.nav-item a:hover{
+    color: rgb(77, 49, 100);
+}
+
+.fechas{
+    font-size: 12px;
+    font-variant: small-caps;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+.cabecera{
+    display: flex !important;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: flex-start;
+}
+.titulo-articulos{
+    font-size: 32px;
+    color: violet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+
+
+/* Sobre Mi*/
+
+.sobre-mi p{
+    font-size: 30px;
+}
+.title-sobremi{
+    font-size: 50px;
+}
+.sobre-mi{
+    padding: 30px;
+    text-align: center;
+    background-image: url(./banner.png);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    color: white;
+}
+
+/* Barra lateral */
+
+.list-group{
+    margin: 20px;
+}
+/* Pie de página */
+
+.contacto{
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+    background-color: blueviolet;
+    border-radius: 20px;
+
+}
+
+footer {
+    background-color: cadetblue;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+.footer-map{
+    justify-content: center;
+}
+
+.modal{
+    color: #333;
+}
